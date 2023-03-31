@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quadrados">
+      <div class="timerp">
+        <h1>Timer Pomodoro</h1>
+      </div>
+
+      <div class="timerb">
+        <h1>Timer Break</h1>
+      </div>
+
+      <div class="audio">
+        <label for="audiosel"><h1>Audio</h1></label>
+        <select name="selectaudio" id="audiosel">
+          <option value="selected">
+            -------------- Escolha --------------
+          </option>
+          <option value="DF">Deep Focus</option>
+          <option value="RLX">Relax</option>
+        </select>
+      </div>
+
+      <div class="efeitos">
+        <label for="efeitosel"><h1>Efeitos Sonoros</h1></label>
+        <select name="selectefeito" id="efeitosel">
+          <option value="selected">
+            -------------- Escolha --------------
+          </option>
+          <option value="BC">Barulho de Chuva</option>
+          <option value="FG">Fogueira</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="foco">
+      <label for="ifoco"><h1>Foco</h1></label>
+      <button id="ifoco">Play</button>
+    </div>
+
+    <div class="ciclo">
+      <h1>Você está a 5 ciclos.</h1>
+    </div>
+    
+  </body>
+</html>
