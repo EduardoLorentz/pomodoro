@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  background-color: #3182CE;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#header h3 {
+  color: #fff;
+}
+
+#container {
+  padding: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.input-container label {
+  margin-top: 5px;
+}
+
+#input-inline {
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
