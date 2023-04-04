@@ -1,10 +1,13 @@
-*{
+* {
   padding: 0;
   margin: 0;
+  color: #484848;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
 }
 
 #header {
-  background-color: #3182CE;
+  background-color: #3182ce;
   display: flex;
   align-items: center;
   gap: 13px;
@@ -28,9 +31,18 @@
   margin-top: 5px;
 }
 
+
+
 #input-inline {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 10px;
+}
+
+input,
+select {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 5px;
 }

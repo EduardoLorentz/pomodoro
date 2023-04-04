@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style1.css" />
     <title>Pomodoro</title>
   </head>
   <body>
@@ -14,17 +14,39 @@
     </div>
 
     <div id="container">
-      <div id="input-inline">
-        <div class="input-container">
-          <label>Tempo de foco</label>
-          <input type="text" value="25:00" style="width: 70px;">
-        </div>
+      <div id="settings-container">
+        <h5>Configure seu ciclo de foco</h5>
+        <div id="input-inline">
+          <div class="input-container" style="width: 70px">
+            <label>Tempo de foco</label>
+            <input type="text" value="25:00" />
+          </div>
 
-        <div class="input-container">
+          <div class="input-container" style="width: 70px">
             <label>Tempo de pausa</label>
-            <input type="text" value="05:00" style="width: 70px;">
+            <input type="text" value="05:00" />
+          </div>
         </div>
       </div>
+    </div>
+    <div class="input-container">
+      <label>Efeitos Sonoros</label>
+      <select>
+        <option></option>
+        <option>Floresta</option>
+        <option>Chuva</option>
+        <option>Tempestade</option>
+        <option>Fogueira</option>
+      </select>
+    </div>
+    <div class="input-container">
+      <label>Musicas</label>
+      <select>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+      </select>
     </div>
   </body>
 </html>
