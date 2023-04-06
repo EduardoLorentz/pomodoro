@@ -50,6 +50,7 @@ h2 {
   border: 1px solid #484848;
   color: #484848;
   border-radius: 13px;
+  flex-wrap: wrap;
 }
 
 #ifoco {
