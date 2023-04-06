@@ -3,46 +3,72 @@
   margin: 0;
   color: #484848;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
+  font-size: medium;
+}
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
 }
 
 #header {
   background-color: #3182ce;
   display: flex;
   align-items: center;
-  gap: 13px;
+  height: 12vh;
+  width: 100vw;
+}
+h2 {
+  color: white;
+  margin-left: 15px;
 }
 
-#header h3 {
-  color: #fff;
+.title {
+  text-align: center;
+  color: #484848;
+  margin-top: 10px;
 }
 
 #container {
   padding: 10px;
-}
-
-.input-container {
+  /* border: 1px solid red; */
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  width: auto;
+  justify-content: center;
+  align-items: center;
 }
-
-.input-container label {
-  margin-top: 5px;
-}
-
-
 
 #input-inline {
+  margin-top: 0px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 10px;
+  width: 35vw;
+  height: 13vh;
+  border: 1px solid #484848;
+  color: #484848;
+  border-radius: 13px;
 }
 
-input,
+#ifoco {
+  width: 90px;
+  color: #484848;
+}
+
+#ipausa {
+  width: 90px;
+  color: #484848;
+}
+
+input {
+  height: 30px;
+  border-radius: 6px;
+  text-align: center;
+}
+
 select {
-  border: 1px #ccc solid;
-  border-radius: 5px;
-  padding: 5px;
+  height: 30px;
+  border-radius: 6px;
 }

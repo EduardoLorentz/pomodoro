@@ -10,43 +10,51 @@
   <body>
     <div id="header">
       <img src="logo.svg" alt="logo" />
-      <h3>App Pomodoro</h3>
+      <h2>App Pomodoro</h2>
+    </div>
+
+    <div class="title">
+      <h5>Configure seu ciclo de foco</h5>
     </div>
 
     <div id="container">
-      <div id="settings-container">
-        <h5>Configure seu ciclo de foco</h5>
-        <div id="input-inline">
-          <div class="input-container" style="width: 70px">
-            <label>Tempo de foco</label>
-            <input type="text" value="25:00" />
-          </div>
-
-          <div class="input-container" style="width: 70px">
-            <label>Tempo de pausa</label>
-            <input type="text" value="05:00" />
-          </div>
+      <div id="input-inline">
+        <div class="input-container">
+          <label for="ifoco"><h1>Tempo de Foco</h1></label>
+          <input id="ifoco" type="text" value="25:00" />
         </div>
+
+        <div class="input-container">
+          <label for="ipausa"><h1>Tempo de Pausa</h1></label>
+          <input id="ipausa" type="text" value="05:00" />
+        </div>
+
+        <div class="efeitos">
+          <label for="efeitosel"><h1>Efeitos Sonoros</h1></label>
+          <select name="selectefeito" id="efeitosel">
+            <option value="selected">
+              ---------- Escolha ----------
+            </option>
+            <option value="BC">Barulho de Chuva</option>
+            <option value="FG">Fogueira</option>
+          </select>
+        </div>
+
+        <div class="audio">
+          <label for="audiosel"><h1>Audio</h1></label>
+          <select name="selectaudio" id="audiosel">
+            <option value="selected">
+              ---------- Escolha ----------
+            </option>
+            <option value="DF">Deep Focus</option>
+            <option value="RLX">Relax</option>
+          </select>
+
+        </div>
+
       </div>
+
     </div>
-    <div class="input-container">
-      <label>Efeitos Sonoros</label>
-      <select>
-        <option></option>
-        <option>Floresta</option>
-        <option>Chuva</option>
-        <option>Tempestade</option>
-        <option>Fogueira</option>
-      </select>
-    </div>
-    <div class="input-container">
-      <label>Musicas</label>
-      <select>
-        <option></option>
-        <option></option>
-        <option></option>
-        <option></option>
-      </select>
-    </div>
+
   </body>
 </html>
