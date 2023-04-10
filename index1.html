@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style1.css" />
     <title>Pomodoro</title>
   </head>
+
   <body>
     <div id="header">
       <img src="logo.svg" alt="logo" />
@@ -32,9 +33,7 @@
         <div class="efeitos">
           <label for="efeitosel"><h1>Efeitos Sonoros</h1></label>
           <select name="selectefeito" id="efeitosel">
-            <option value="selected">
-              ---------- Escolha ----------
-            </option>
+            <option value="selected">---------- Escolha ----------</option>
             <option value="BC">Barulho de Chuva</option>
             <option value="FG">Fogueira</option>
           </select>
@@ -43,18 +42,25 @@
         <div class="audio">
           <label for="audiosel"><h1>Audio</h1></label>
           <select name="selectaudio" id="audiosel">
-            <option value="selected">
-              ---------- Escolha ----------
-            </option>
+            <option value="selected">---------- Escolha ----------</option>
             <option value="DF">Deep Focus</option>
             <option value="RLX">Relax</option>
           </select>
-
         </div>
+      </div>
+    </div>
 
+    <div id="container-play">
+      <div class="container-play-title">
+        <h1>Execute seu Ciclo</h1>
       </div>
 
-    </div>
+      <div class="container-play-button">
+        <button>
+          <img src="start.svg" alt="start-button"/>
+        </button>
+      </div>
+
 
   </body>
 </html>

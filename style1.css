@@ -10,6 +10,8 @@ body {
   width: 100vw;
   height: 100vh;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 #header {
@@ -31,12 +33,14 @@ h2 {
 }
 
 #container {
-  padding: 10px;
-  /* border: 1px solid red; */
-  text-align: center;
+  margin-top: 10px;
   display: flex;
+  text-align: center;
   justify-content: center;
-  align-items: center;
+  width: 35vw;
+  height: 17vh;
+  border: 1px solid #ccc;
+  border-radius: 13px;
 }
 
 #input-inline {
@@ -44,23 +48,32 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 10px;
   width: 35vw;
-  height: 13vh;
-  border: 1px solid #484848;
+  height: 17vh;
   color: #484848;
-  border-radius: 13px;
   flex-wrap: wrap;
+  /* border-radius: 13px;
+  border: 1px solid #ccc; */
 }
 
 #ifoco {
   width: 90px;
   color: #484848;
+  border: 1px solid #ccc;
 }
 
 #ipausa {
   width: 90px;
   color: #484848;
+  border: 1px solid #ccc;
+}
+
+#efeitosel {
+  border: 1px solid #ccc;
+}
+
+#audiosel {
+  border: 1px solid #ccc;
 }
 
 input {
@@ -72,4 +85,34 @@ input {
 select {
   height: 30px;
   border-radius: 6px;
+}
+
+#container-play {
+  border: 1px solid #ccc;
+  height: 34vh;
+  width: 35vw;
+  margin-top: 80px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.container-play-button {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  border-radius: 25px;
+}
+
+button {
+  background-color: #3182ce;
+  border-radius: 25px;
+}
+
+img {
+  margin: 5px;
 }
