@@ -47,7 +47,7 @@ h2 {
   margin-top: 0px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 35vw;
   height: 17vh;
   color: #484848;
@@ -70,16 +70,21 @@ h2 {
 
 #efeitosel {
   border: 1px solid #ccc;
+    border-radius: 5px;
+  padding: 5px;
 }
 
 #audiosel {
   border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 input {
   height: 30px;
   border-radius: 6px;
   text-align: center;
+
 }
 
 select {
@@ -97,10 +102,14 @@ select {
   flex-direction: column;
   align-items: center;
   border-radius: 6px;
+  gap: 10px;
 }
 
 .container-play-button {
-  margin-top: 20px;
+  margin-top: 5px;
+  margin-left: 8px;
+  margin: 0px;
+  width: 50px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -111,6 +120,9 @@ select {
 button {
   background-color: #3182ce;
   border-radius: 25px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
 }
 
 img {
