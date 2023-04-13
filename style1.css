@@ -70,7 +70,7 @@ h2 {
 
 #efeitosel {
   border: 1px solid #ccc;
-    border-radius: 5px;
+  border-radius: 5px;
   padding: 5px;
 }
 
@@ -94,7 +94,7 @@ select {
 
 #container-play {
   border: 1px solid #ccc;
-  height: 34vh;
+  height: 38vh;
   width: 35vw;
   margin-top: 80px;
   padding: 10px;
@@ -117,14 +117,31 @@ select {
   border-radius: 25px;
 }
 
+.container-play-title {
+  margin-top: 20px;
+}
+
 button {
   background-color: #3182ce;
   border-radius: 25px;
   border: none;
   padding: 10px;
   cursor: pointer;
+  height: 156px;
+  margin-top: 13px;
 }
 
 img {
   margin: 5px;
+}
+
+.status-title {
+  margin-top: 10px;
+}
+
+#itime {
+  width: 55px;
+  color: #484848;
+  border: none;
+  border-radius: 5px;
 }
